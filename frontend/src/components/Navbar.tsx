@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav style={styles.navbar}>
       {/* Logo / Title */}
       <div style={styles.logo}>
-        🍽 <span style={{ marginLeft: 6 }}>AI Nutrition</span>
+        <span style={{ marginLeft: 6 }}>🥗 Nutrition App</span>  
       </div>
 
       {/* Links */}

@@ -1,9 +1,6 @@
 import os
 
-JWT_SECRET = "supersecretkey"  
-JWT_ALGORITHM = "HS256"
+MONGO_URI = "YOUR_MONGO_URI"
+DB_NAME = "YOUR_DB_NAME"
+SECRET_KEY = "YOUR_SECRET_KEY"
 JWT_EXPIRE_MINUTES = 60
-
-MONGO_URI = os.getenv("MONGO_URI")
-DB_NAME = "the foods app name"
-
